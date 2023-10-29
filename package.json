@@ -1,0 +1,20 @@
+{
+  "name": "rga-design-studio-website",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tailwindcss -i ./src/input.css -o ./dist/output.css --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.3.3"
+  },
+  "dependencies": {
+    "autoprefixer": "^10.4.16",
+    "browserslist": "^4.22.1",
+    "caniuse-lite": "^1.0.30001553"
+  }
+}
